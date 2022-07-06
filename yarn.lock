@@ -371,33 +371,23 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@nuxt/content@^2.0.0":
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/@nuxt/content/-/content-2.0.1.tgz#aad15f62d2614d0e73e7a5e1381d447b2bc30963"
-  integrity sha512-fqKnE+oWc/yjLBEP4OERELV7soZES9Ah1gyNaZpCG2wF6Q1XXcqL4uHhx7XjetBxK44n9+BTM9qJODVkk0xYnw==
+"@nuxt/content@npm:@nuxt/content-edge@latest":
+  version "2.1.0-27618506.d5d23c9"
+  resolved "https://registry.yarnpkg.com/@nuxt/content-edge/-/content-edge-2.1.0-27618506.d5d23c9.tgz#9dd2a656a20ca407a3c7b1d56709c2bba3b00ee1"
+  integrity sha512-v8ztdrDAMtQ0bYzPdoyD4oQDzHtWVBCN/CeubMAfK+KynRHM8RvxkMWLrjctfragA+XgY2J0IbTmBlxKtLWXWQ==
   dependencies:
-    "@nuxt/kit" "^3.0.0-rc.3"
+    "@nuxt/kit" "^3.0.0-rc.4"
     csvtojson "^2.0.10"
     defu "^6.0.0"
     destr "^1.1.1"
     detab "^3.0.1"
-    flat "^5.0.2"
     html-tags "^3.2.0"
-    js-yaml "^4.1.0"
     json5 "^2.2.1"
-    listhen "^0.2.11"
-    mdast-util-from-markdown "^1.2.0"
-    mdast-util-to-hast "^12.1.1"
-    mdast-util-to-markdown "^1.3.0"
+    listhen "^0.2.13"
+    mdast-util-to-hast "^12.1.2"
     mdurl "^1.0.1"
-    micromark "^3.0.10"
-    micromark-core-commonmark "^1.0.6"
-    micromark-factory-space "^1.0.0"
-    micromark-factory-whitespace "^1.0.0"
-    micromark-util-character "^1.1.0"
     ohash "^0.1.0"
-    parse-entities "^4.0.0"
-    pathe "^0.3.0"
+    pathe "^0.3.2"
     property-information "^6.1.1"
     rehype-external-links "^1.0.1"
     rehype-raw "^6.1.1"
@@ -406,21 +396,21 @@
     rehype-sort-attributes "^4.0.0"
     remark-emoji "^3.0.2"
     remark-gfm "^3.0.1"
+    remark-mdc "^1.0.0"
     remark-parse "^10.0.1"
     remark-rehype "^10.1.0"
     remark-squeeze-paragraphs "^5.0.1"
     scule "^0.2.1"
     shiki-es "^0.1.2"
     slugify "^1.6.5"
-    stringify-entities "^4.0.2"
     ufo "^0.8.4"
     unctx "^1.1.4"
     unified "^10.1.2"
     unist-builder "^3.0.0"
     unist-util-position "^4.0.3"
     unist-util-visit "^4.1.0"
-    unstorage "^0.4.1"
-    ws "^8.7.0"
+    unstorage "^0.5.4"
+    ws "^8.8.0"
 
 "@nuxt/devalue@^2.0.0":
   version "2.0.0"
@@ -451,7 +441,7 @@
     unimport "^0.1.6"
     untyped "^0.4.4"
 
-"@nuxt/kit@^3.0.0-rc.3", "@nuxt/kit@^3.0.0-rc.4":
+"@nuxt/kit@^3.0.0-rc.4":
   version "3.0.0-rc.4"
   resolved "https://registry.yarnpkg.com/@nuxt/kit/-/kit-3.0.0-rc.4.tgz#8aa3c26f1bb9f3e7bb78ad2cec33473e32ffccd0"
   integrity sha512-ZBSeHFy3fPUx0equCtyP6eVUAZQWwRqTp2YnHSFqM5+yhN5aTGo8gBlfwttVBr4yhFBpGFRHhQj/iNPqrCeTnQ==
@@ -2202,7 +2192,7 @@ gzip-size@^7.0.0:
   dependencies:
     duplexer "^0.1.2"
 
-h3@^0.7.10, h3@^0.7.6, h3@^0.7.9:
+h3@^0.7.10, h3@^0.7.9:
   version "0.7.10"
   resolved "https://registry.yarnpkg.com/h3/-/h3-0.7.10.tgz#3847534e441d5d59c8ae3678a5faf1a332b0ba77"
   integrity sha512-HcUQxlOocG2uf6PQLu3Bxk0KSXcTuxSF6kRclFBDO7y74Ml0wCwTvmoN5zmrzoxbNHecDNUrcGr8qSNGcOqAHQ==
@@ -2459,7 +2449,7 @@ inquirer@^8.2.2:
     through "^2.3.6"
     wrap-ansi "^7.0.0"
 
-ioredis@^5.0.4, ioredis@^5.1.0:
+ioredis@^5.1.0:
   version "5.1.0"
   resolved "https://registry.yarnpkg.com/ioredis/-/ioredis-5.1.0.tgz#17bc0bc40f164ef26910ca6e56981c2a9bfdf57e"
   integrity sha512-HYHnvwxFwefeUBj0hZFejLvd8Q/YNAfnZlZG/hSRxkRhXMs1H8soMEVccHd1WlLrKkynorXBsAtqDGskOdAfVQ==
@@ -2718,7 +2708,7 @@ lilconfig@^2.0.3:
   resolved "https://registry.yarnpkg.com/lilconfig/-/lilconfig-2.0.5.tgz#19e57fd06ccc3848fd1891655b5a447092225b25"
   integrity sha512-xaYmXZtTHPAw5m+xLN8ab9C+3a8YmV3asNSPOATITbtwrfbwaLJj8h66H1WMIpALCkqsIzK3h7oQ+PdX+LQ9Eg==
 
-listhen@^0.2.11, listhen@^0.2.13:
+listhen@^0.2.13:
   version "0.2.13"
   resolved "https://registry.yarnpkg.com/listhen/-/listhen-0.2.13.tgz#bd34338fe04ff9f3f08e4f83a46eefc9104b2482"
   integrity sha512-axfyPgsrypKohOglPjzMVj+6nSQuDfdDzq92tYEg4HO+YkvvMGz0bGeoGA+pdEC7a8gbIgLduf/62Pkk1a9jMQ==
@@ -2963,7 +2953,7 @@ mdast-util-gfm@^2.0.0:
     mdast-util-gfm-task-list-item "^1.0.0"
     mdast-util-to-markdown "^1.0.0"
 
-mdast-util-to-hast@^12.1.0, mdast-util-to-hast@^12.1.1:
+mdast-util-to-hast@^12.1.0, mdast-util-to-hast@^12.1.2:
   version "12.1.2"
   resolved "https://registry.yarnpkg.com/mdast-util-to-hast/-/mdast-util-to-hast-12.1.2.tgz#5c793b04014746585254c7ce0bc2d117201a5d1d"
   integrity sha512-Wn6Mcj04qU4qUXHnHpPATYMH2Jd8RlntdnloDfYLe1ErWRHo6+pvSl/DzHp6sCZ9cBSYlc8Sk8pbwb8xtUoQhQ==
@@ -3660,7 +3650,7 @@ ohash@^0.1.0:
   resolved "https://registry.yarnpkg.com/ohash/-/ohash-0.1.0.tgz#cde74db91cfb7259477a93e0959221c4e20a5881"
   integrity sha512-KvclyhWseX6F2UTEEp9Qzybb0LTGorTSVufAToV5tR2B6Q64rVhKhkcU/o+mBaiqGa5+PdobtfSVelp8VOCR6A==
 
-ohmyfetch@^0.4.15, ohmyfetch@^0.4.16, ohmyfetch@^0.4.18:
+ohmyfetch@^0.4.15, ohmyfetch@^0.4.18:
   version "0.4.18"
   resolved "https://registry.yarnpkg.com/ohmyfetch/-/ohmyfetch-0.4.18.tgz#2952e04bd52662d0618d3d2f344db0250c3eeac2"
   integrity sha512-MslzNrQzBLtZHmiZBI8QMOcMpdNFlK61OJ34nFNFynZ4v+4BonfCQ7VIN4EGXvGGq5zhDzgdJoY3o9S1l2T7KQ==
@@ -4285,6 +4275,26 @@ remark-gfm@^3.0.1:
     mdast-util-gfm "^2.0.0"
     micromark-extension-gfm "^2.0.0"
     unified "^10.0.0"
+
+remark-mdc@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/remark-mdc/-/remark-mdc-1.0.0.tgz#f4b0bd1f57ac8fbeff6d808529a851a1a3fb5ffe"
+  integrity sha512-/eh+bz07fIgML4YbAohQz60uTXwJxMikqSPwZJMh83PWYPmp71QG6r1ZDNSjG+gqTrUA2gGc3JUc8MfzWBaVxQ==
+  dependencies:
+    flat "^5.0.2"
+    js-yaml "^4.1.0"
+    mdast-util-from-markdown "^1.2.0"
+    mdast-util-to-markdown "^1.3.0"
+    micromark "^3.0.10"
+    micromark-core-commonmark "^1.0.6"
+    micromark-factory-space "^1.0.0"
+    micromark-factory-whitespace "^1.0.0"
+    micromark-util-character "^1.1.0"
+    parse-entities "^4.0.0"
+    scule "^0.2.1"
+    stringify-entities "^4.0.2"
+    unist-util-visit "^4.1.0"
+    unist-util-visit-parents "^5.1.0"
 
 remark-parse@^10.0.1:
   version "10.0.1"
@@ -5003,7 +5013,7 @@ unist-util-stringify-position@^3.0.0:
   dependencies:
     "@types/unist" "^2.0.0"
 
-unist-util-visit-parents@^5.0.0:
+unist-util-visit-parents@^5.0.0, unist-util-visit-parents@^5.1.0:
   version "5.1.0"
   resolved "https://registry.yarnpkg.com/unist-util-visit-parents/-/unist-util-visit-parents-5.1.0.tgz#44bbc5d25f2411e7dfc5cecff12de43296aa8521"
   integrity sha512-y+QVLcY5eR/YVpqDsLf/xh9R3Q2Y4HxkZTp7ViLDU6WtJCEcPmRzW1gpdWDCDIqIlhuPDXOgttqPlykrHYDekg==
@@ -5044,23 +5054,7 @@ unplugin@^0.7.0, unplugin@^0.7.1:
     webpack-sources "^3.2.3"
     webpack-virtual-modules "^0.4.4"
 
-unstorage@^0.4.1:
-  version "0.4.1"
-  resolved "https://registry.yarnpkg.com/unstorage/-/unstorage-0.4.1.tgz#66d174886f017a5ceef567b8f007c5966b4690f4"
-  integrity sha512-nK2XsRV2lfB6aNCuoatsQUhRVMnDDP5pm3D4UrgRMxP3D57Rn5+dx3aNaLCi5rcq6QAdOmhjyBvKcW8d3PY+Sw==
-  dependencies:
-    anymatch "^3.1.2"
-    chokidar "^3.5.3"
-    destr "^1.1.1"
-    h3 "^0.7.6"
-    ioredis "^5.0.4"
-    listhen "^0.2.11"
-    mri "^1.2.0"
-    ohmyfetch "^0.4.16"
-    ufo "^0.8.3"
-    ws "^8.6.0"
-
-unstorage@^0.5.3:
+unstorage@^0.5.3, unstorage@^0.5.4:
   version "0.5.4"
   resolved "https://registry.yarnpkg.com/unstorage/-/unstorage-0.5.4.tgz#7d49047228e2a406625412a8fcfa6e7d3d583f38"
   integrity sha512-yihAdJiYzkmwJGBO9IV7XIlc9NpCBHlT9ZJxlMmPj+8uqkYvCkwwBO/c98+JCDLkmmdUPS0hnstl+q5bALsS+Q==
@@ -5323,7 +5317,7 @@ wrappy@1:
   resolved "https://registry.yarnpkg.com/wrappy/-/wrappy-1.0.2.tgz#b5243d8f3ec1aa35f1364605bc0d1036e30ab69f"
   integrity sha512-l4Sp/DRseor9wL6EvV2+TuQn63dMkPjZ/sp9XkghTEbV9KlPS1xUsZ3u7/IQO4wxtcFB4bgpQPRcR3QCvezPcQ==
 
-ws@^8.6.0, ws@^8.7.0, ws@^8.8.0:
+ws@^8.8.0:
   version "8.8.0"
   resolved "https://registry.yarnpkg.com/ws/-/ws-8.8.0.tgz#8e71c75e2f6348dbf8d78005107297056cb77769"
   integrity sha512-JDAgSYQ1ksuwqfChJusw1LSJ8BizJ2e/vVu5Lxjq3YvNJNlROv1ui4i+c/kUUrPheBvQl4c5UbERhTwKa6QBJQ==
